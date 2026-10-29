@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#172554">
+<title>ARTISANS PRO — Votre talent mérite un avenir plus grand</title>
+<style>
+:root{--navy:#172554;--violet:#7C3AED;--copper:#E58A45;--ink:#18213b;--muted:#64708a;--paper:#f7f8fc}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:white;line-height:1.55}
+header{background:var(--navy);color:white;padding:18px 6%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:900;font-size:1.25rem;letter-spacing:.04em}.logo span{color:var(--copper)}
+nav{display:flex;gap:22px;align-items:center}nav a{color:#e8eaff;text-decoration:none;font-size:.94rem}
+.btn{display:inline-block;border:0;border-radius:12px;padding:13px 19px;font-weight:750;text-decoration:none;cursor:pointer}
+.btn-copper{background:var(--copper);color:#241b16}.btn-violet{background:var(--violet);color:white}
+.hero{background:linear-gradient(125deg,#172554 0%,#312e81 62%,#6d28d9 100%);color:white;padding:76px 6% 82px;display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center}
+.eyebrow{color:#ffd0a6;text-transform:uppercase;letter-spacing:.15em;font-size:.78rem;font-weight:800}
+h1{font-size:clamp(2.4rem,5vw,4.4rem);line-height:1.05;margin:15px 0 20px;max-width:720px}
+.hero p{font-size:1.1rem;color:#e0e7ff;max-width:620px}.hero-art{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.2);border-radius:28px;padding:28px;min-height:270px;display:flex;flex-direction:column;justify-content:center}
+.art-circle{width:90px;height:90px;border-radius:26px;background:linear-gradient(135deg,var(--copper),#ffd3a6);display:grid;place-items:center;font-size:2.6rem;margin-bottom:20px}
+.art-tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.art-tags span{background:rgba(255,255,255,.13);padding:8px 12px;border-radius:30px;font-size:.85rem}
+section{padding:64px 6%}.section-head{text-align:center;max-width:720px;margin:0 auto 34px}.section-head h2{font-size:2rem;color:var(--navy);margin:0 0 10px}.section-head p{color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid #e8eaf2;border-radius:18px;padding:24px;box-shadow:0 10px 30px rgba(23,37,84,.05)}.card .ico{font-size:1.8rem}.card h3{color:var(--navy);margin:12px 0 6px}.card p{color:var(--muted);margin:0}
+.signup{background:var(--paper)}.signup-wrap{max-width:900px;margin:auto;display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:start}
+.signup-intro{background:var(--navy);color:white;border-radius:20px;padding:28px}.signup-intro h2{font-size:1.8rem;line-height:1.2}.signup-intro p{color:#dbe3ff}
+form{background:white;padding:28px;border:1px solid #e7e9f1;border-radius:20px;box-shadow:0 12px 34px rgba(23,37,84,.06)}
+label{display:block;font-weight:700;color:var(--navy);font-size:.9rem;margin:0 0 6px}
+input,select{width:100%;padding:13px 14px;border:1px solid #d8ddeb;border-radius:10px;font:inherit;margin-bottom:16px;background:white}
+input:focus,select:focus{outline:2px solid #c4b5fd;border-color:var(--violet)}
+.hint{font-size:.82rem;color:var(--muted);margin:-9px 0 15px}.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.notice{font-size:.85rem;color:var(--muted);margin:14px 0 0}.success{display:none;background:#ecfdf5;border:1px solid #a7f3d0;color:#065f46;border-radius:10px;padding:13px;margin-top:14px}
+footer{background:#101b40;color:#dbe3ff;padding:28px 6%;text-align:center;font-size:.9rem}
+@media(max-width:760px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:54px}.cards{grid-template-columns:1fr}.signup-wrap{grid-template-columns:1fr}.two{grid-template-columns:1fr}section{padding:48px 5%}}
+</style>
+</head>
+<body>
+<header><div class="logo">ARTISANS <span>PRO</span></div><nav><a href="#avantages">Avantages</a><a href="#inscription">Inscription</a><a href="#inscription" class="btn btn-copper">Rejoindre gratuitement</a></nav></header>
+<main>
+<div class="hero">
+ <div><div class="eyebrow">La plateforme des professionnels de l'artisanat</div><h1>Votre talent mérite un avenir plus grand.</h1><p>Présentez votre savoir-faire, mettez vos réalisations en valeur et développez votre réseau professionnel. ARTISANS PRO accompagne les artisans de tous les métiers.</p><a class="btn btn-copper" href="#inscription">Créer mon profil gratuitement</a></div>
+ <div class="hero-art"><div class="art-circle">✦</div><h2>Le savoir-faire local a de l'avenir.</h2><p>Une vitrine professionnelle pour chaque artisan, quel que soit son métier.</p><div class="art-tags"><span>Menuiserie</span><span>Couture</span><span>Artisanat d'art</span><span>Mécanique</span><span>Construction</span></div></div>
+</div>
+<section id="avantages"><div class="section-head"><h2>Tout pour faire grandir votre activité</h2><p>Un espace simple pour présenter votre travail et entrer en relation avec de nouveaux clients.</p></div><div class="cards">
+ <article class="card"><div class="ico">👤</div><h3>Votre profil artisan</h3><p>Présentez votre métier, votre expérience, votre localisation et vos coordonnées.</p></article>
+ <article class="card"><div class="ico">🧰</div><h3>Vos réalisations</h3><p>Montrez vos produits et vos travaux avec des photos et des descriptions.</p></article>
+ <article class="card"><div class="ico">🤝</div><h3>De nouvelles opportunités</h3><p>Facilitez les contacts avec les clients, partenaires et autres professionnels.</p></article>
+</div></section>
+<section class="signup" id="inscription"><div class="section-head"><h2>Rejoignez ARTISANS PRO</h2><p>L'inscription est gratuite. Vous pouvez utiliser votre numéro de téléphone et votre WhatsApp.</p></div>
+<div class="signup-wrap"><div class="signup-intro"><div class="eyebrow">Inscription gratuite</div><h2>Faites connaître votre savoir-faire.</h2><p>Complétez les informations de base pour préparer votre profil artisan.</p><p><strong>Pas besoin d'adresse e-mail pour commencer.</strong></p></div>
+<form id="artisanForm">
+ <div class="two"><div><label for="nom">Nom et prénom *</label><input id="nom" required placeholder="Ex. : Awa Traoré"></div><div><label for="metier">Votre métier *</label><input id="metier" required placeholder="Ex. : Menuisier"></div></div>
+ <label for="ville">Ville / Localité *</label><input id="ville" required placeholder="Ex. : Ouagadougou">
+ <div class="two"><div><label for="telephone">Numéro de téléphone *</label><input id="telephone" type="tel" required placeholder="+226 70 00 00 00"></div><div><label for="whatsapp">Numéro WhatsApp *</label><input id="whatsapp" type="tel" required placeholder="+226 70 00 00 00"></div></div>
+ <p class="hint">Vous pouvez indiquer le même numéro pour le téléphone et WhatsApp.</p>
+ <label for="description">Présentez brièvement votre activité</label><input id="description" placeholder="Vos spécialités, vos services...">
+ <button class="btn btn-violet" type="submit">Préparer mon inscription</button>
+ <div class="success" id="success" role="status"></div>
+ <p class="notice">Prototype de démonstration : ce formulaire ne crée pas encore de compte et n'envoie pas vos données. La vérification du numéro et l'enregistrement sécurisé seront ajoutés lors de la connexion à un service backend.</p>
+</form></div></section>
+</main>
+<footer>© 2026 ARTISANS PRO · Votre talent mérite un avenir plus grand.</footer>
+<script>
+document.getElementById('artisanForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const n=document.getElementById('nom').value.trim(), m=document.getElementById('metier').value.trim();
+ const t=document.getElementById('telephone').value.trim(), w=document.getElementById('whatsapp').value.trim();
+ document.getElementById('success').style.display='block';
+ document.getElementById('success').textContent='Merci '+n+' ! Les informations de démonstration de votre profil ('+m+') sont prêtes. La création réelle du compte sera activée après la mise en place de la base de données et de la vérification du numéro.';
+});
+</script>
+</body></html>
